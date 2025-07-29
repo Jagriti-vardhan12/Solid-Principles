@@ -1,0 +1,21 @@
+<web-app>
+
+  <servlet>
+    <servlet-name>storeservlet</servlet-name>
+    <servlet-class>storeservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>storeservlet</servlet-name>
+    <url-pattern>/store</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>welcomeservlet</servlet-name>
+    <servlet-class>welcomeservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>welcomeservlet</servlet-name>
+    <url-pattern>/welcome</url-pattern>
+  </servlet-mapping>
+
+</web-app>
